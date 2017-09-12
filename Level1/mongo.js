@@ -12,7 +12,6 @@ Note: you do not need to run the file to confirm it works. Writing the same line
 
 
 function createMonsters(Name,Health,Last_fought,Attacks,Stats, db){
-    var myGame = use myGame;
     db.monsters.insert(
     {
         "Name":"Monster Bigfoot",
