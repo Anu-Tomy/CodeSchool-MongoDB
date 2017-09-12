@@ -9,7 +9,7 @@ Write the command that will find a monster based on one of the attacks it has (i
 Write the command that will find a monster based on their defense stat.
 Note: you do not need to run the file to confirm it works. Writing the same lines in the mongo console should do this. This is just to confirm you know the syntax.
 */
-
+/*global db*/
 
 function createMonsters(Name,Health,Last_fought,Attacks,Stats, db){
     db.monsters.insert(
